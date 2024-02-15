@@ -104,9 +104,10 @@ def main():
     print(f"prumerna vzdalenost features (km) - {average_feature_distance}")
     print(f"rozdil casu (s) - {time_difference}")
     print(f"rychlost (km/s) - {speed}")
-    #TODO data vysledek do iss_speed.txt
+    #TODO dat vysledek do iss_speed.txt
     #TODO vyresit cesty k obrazkum
     #TODO chytit exceptions kdyz nejsou obrazky
+    #TODO otestovat podle: https://projects.raspberrypi.org/en/projects/mission-space-lab-creator-guide/5
 
 if __name__ == "__main__":
     main()
